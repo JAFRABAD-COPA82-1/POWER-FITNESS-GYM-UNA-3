@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Join Now - POWER FITNESS GYM UNA</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#000000,#222222);
+    color:white;
+}
+
+header{
+    background: linear-gradient(90deg,yellow,orange);
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    font-size:45px;
+    color:black;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    from{ text-shadow:0 0 10px white; }
+    to{ text-shadow:0 0 25px red; }
+}
+
+/* NAV MENU ADD */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    background:white;
+    color:black;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:black;
+    color:yellow;
+    transform:scale(1.1);
+}
+
+.home-btn{
+    text-align:right;
+    padding:10px 40px;
+}
+
+button{
+    padding:10px 20px;
+    background:yellow;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:orange;
+}
+
+.container{
+    padding:40px;
+    max-width:900px;
+    margin:auto;
+}
+
+.join-box{
+    background:#111;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(255,255,255,0.2);
+    margin-bottom:25px;
+}
+
+.join-box:hover{
+    background:#1a1a1a;
+}
+
+h2{
+    color:yellow;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, select{
+    padding:12px;
+    border-radius:8px;
+    border:none;
+    font-size:16px;
+}
+
+.submit-btn{
+    width:180px;
+    font-size:16px;
+}
+
+footer{
+    background:black;
+    padding:15px;
+    text-align:center;
+    color:yellow;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>POWER FITNESS GYM UNA</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="aboutgym.html">About Gym</a>
+<a href="services.html">Services</a>
+<a href="trainers.html">Trainers</a>
+<a href="membership.html">Membership</a>
+<a href="dietplans.html">DietPlans</a>
+<a href="gallery.html">Gallery</a>
+<a href="Contactus.html">Contact Us</a>
+<a href="JoinNow.html">Join Now</a>
+</nav>
+</header>
+
+<div class="home-btn">
+<a href="index.html">
+</a>
+</div>
+
+<div class="container">
+
+<div class="join-box">
+<h2>New Member Registration Form</h2>
+<form>
+<input type="text" placeholder="Enter Full Name" required>
+<input type="number" placeholder="Enter Age" required>
+<input type="tel" placeholder="Enter Mobile Number" required>
+<input type="text" placeholder="Enter Address" required>
+
+<select required>
+<option>Select Membership Plan</option>
+<option>Basic Plan</option>
+<option>Standard Plan</option>
+<option>Premium Plan</option>
+<option>Student Plan</option>
+</select>
+
+<select required>
+<option>Select Gender</option>
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<input type="date" required>
+
+<button class="submit-btn">Join Now</button>
+</form>
+</div>
+
+<div class="join-box">
+<h2>Why Join Our Gym?</h2>
+<ul>
+<li>Modern Gym Equipment</li>
+<li>Experienced Trainers</li>
+<li>Affordable Membership Plans</li>
+<li>Friendly Environment</li>
+<li>Personal Diet Guidance</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+© 2026 POWER FITNESS GYM UNA - All Rights Reserved
+</footer>
+
+</body>
+</html>

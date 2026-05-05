@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us - POWER FITNESS GYM UNA</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#000000,#222222);
+    color:white;
+}
+
+header{
+    background: linear-gradient(90deg,yellow,orange);
+    padding:20px;
+    text-align:center;
+}
+
+h1{
+    font-size:45px;
+    color:black;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow{
+    from{ text-shadow:0 0 10px white; }
+    to{ text-shadow:0 0 25px red; }
+}
+
+/* NAV MENU ADD */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    text-decoration:none;
+    background:white;
+    color:black;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:black;
+    color:yellow;
+    transform:scale(1.1);
+}
+
+.home-btn{
+    text-align:right;
+    padding:10px 40px;
+}
+
+button{
+    padding:10px 20px;
+    background:yellow;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:orange;
+}
+
+.container{
+    padding:40px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.contact-box{
+    background:#111;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(255,255,255,0.2);
+    margin-bottom:25px;
+}
+
+.contact-box:hover{
+    background:#1a1a1a;
+}
+
+h2{
+    color:yellow;
+}
+
+p{
+    font-size:18px;
+    line-height:28px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea{
+    padding:12px;
+    border-radius:8px;
+    border:none;
+    font-size:16px;
+}
+
+textarea{
+    resize:none;
+    height:120px;
+}
+
+.submit-btn{
+    width:150px;
+}
+
+footer{
+    background:black;
+    padding:15px;
+    text-align:center;
+    color:yellow;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>POWER FITNESS GYM UNA</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="aboutgym.html">About Gym</a>
+<a href="services.html">Services</a>
+<a href="trainers.html">Trainers</a>
+<a href="membership.html">Membership</a>
+<a href="dietplans.html">DietPlans</a>
+<a href="gallery.html">Gallery</a>
+<a href="Contactus.html">Contact Us</a>
+<a href="JoinNow.html">Join Now</a>
+</nav>
+
+</header>
+
+<div class="home-btn">
+<a href="index.html">
+</a>
+</div>
+
+<div class="container">
+
+<div class="contact-box">
+<h2>Gym Address</h2>
+<p>
+POWER FITNESS GYM UNA,<br>
+Near Bus Stand, Una City,<br>
+Gir Somnath District, Gujarat - 362560
+</p>
+</div>
+
+<div class="contact-box">
+<h2>Contact Details</h2>
+<p>
+Phone: 9106438856<br>
+Mobile:987707049<br>
+Email: powerfitnessuna@gmail.com
+</p>
+</div>
+
+<div class="contact-box">
+<h2>Gym Timing</h2>
+<p>
+Morning: 5:30 AM - 11:00 AM<br>
+Evening: 4:30 PM - 10:30 PM<br>
+Sunday: Open
+</p>
+</div>
+
+<div class="contact-box">
+<h2>Send Message</h2>
+<form>
+<input type="text" placeholder="Enter Your Name" required>
+<input type="email" placeholder="Enter Your Email" required>
+<input type="tel" placeholder="Enter Your Mobile Number" required>
+<textarea placeholder="Enter Your Message"></textarea>
+<button class="submit-btn">Submit</button>
+</form>
+</div>
+
+</div>
+
+<footer>
+© 2026 POWER FITNESS GYM UNA - All Rights Reserved
+</footer>
+
+</body>
+</html>
